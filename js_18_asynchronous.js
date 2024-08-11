@@ -13,8 +13,8 @@ fetch("https://dummyjson.com/products").then(function c(){
     console.log("Completed")
 });
 
-//Promises & mutation observer are come in micro queue.
-//rest all comes in call Back queue or Task Queue
+// Promises & mutation observer are come in micro queue.
+// rest all comes in call Back queue or Task Queue
 
 // micro queue has more priority than callBack Queue
 
